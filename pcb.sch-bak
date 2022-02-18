@@ -13,4 +13,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L device:LED D?
+U 1 1 620F14A9
+P 5250 4100
+F 0 "D?" H 5243 4316 50  0000 C CNN
+F 1 "LED" H 5243 4225 50  0000 C CNN
+F 2 "" H 5250 4100 50  0001 C CNN
+F 3 "~" H 5250 4100 50  0001 C CNN
+	1    5250 4100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
