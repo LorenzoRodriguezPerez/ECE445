@@ -1,6 +1,6 @@
-update=26-Mar-19 08:20:00 PM
+update=19/02/2022 15:56:48
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -12,16 +12,6 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[schematic_editor]
-version=1
-PageLayoutDescrFile=Title_Block.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=Title_Block.kicad_wks
@@ -80,3 +70,13 @@ uViaDrill=0.1016
 dPairWidth=1.6
 dPairGap=1.6
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=Title_Block.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
