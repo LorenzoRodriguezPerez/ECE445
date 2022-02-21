@@ -162,4 +162,45 @@ Wire Wire Line
 	3450 2950 3650 2950
 Wire Wire Line
 	3650 2950 3650 3000
+$Comp
+L components_senior_design:compass_accelerometer U3
+U 1 1 6212A98F
+P 3200 3500
+F 0 "U3" H 3233 3715 50  0000 C CNN
+F 1 "compass_accelerometer" H 3233 3624 50  0000 C CNN
+F 2 "components_ece445:compass_accelerometer" H 3250 2550 50  0001 C CNN
+F 3 "" H 3200 3700 50  0001 C CNN
+	1    3200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6212C9CF
+P 3950 3500
+F 0 "#PWR?" H 3950 3350 50  0001 C CNN
+F 1 "+3V3" H 3965 3673 50  0000 C CNN
+F 2 "" H 3950 3500 50  0001 C CNN
+F 3 "" H 3950 3500 50  0001 C CNN
+	1    3950 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3550 3950 3550
+Wire Wire Line
+	3950 3550 3950 3500
+$Comp
+L power:GND #PWR?
+U 1 1 6212D678
+P 3950 3850
+F 0 "#PWR?" H 3950 3600 50  0001 C CNN
+F 1 "GND" H 3955 3677 50  0000 C CNN
+F 2 "" H 3950 3850 50  0001 C CNN
+F 3 "" H 3950 3850 50  0001 C CNN
+	1    3950 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3750 3950 3750
+Wire Wire Line
+	3950 3750 3950 3850
 $EndSCHEMATC
