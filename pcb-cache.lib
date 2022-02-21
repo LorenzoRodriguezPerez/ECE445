@@ -80,6 +80,24 @@ X GND 4 250 -250 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# components_senior_design_MIC5320-SSYD6-TR
+#
+DEF components_senior_design_MIC5320-SSYD6-TR U 0 40 Y Y 1 F N
+F0 "U" 0 300 50 H V C CNN
+F1 "components_senior_design_MIC5320-SSYD6-TR" 0 400 50 H V C CNN
+F2 "MIC5320-SSYD6-TR:SOT95P280X110-6N" 50 -500 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
+DRAW
+S 100 250 -200 -400 0 1 0 f
+X EN2 1 200 150 100 L 50 50 1 1 B
+X GND 2 200 50 100 L 50 50 1 1 B
+X Vin 3 200 -50 100 L 50 50 1 1 B
+X Vout1 4 200 -150 100 L 50 50 1 1 B
+X Vout2 5 200 -250 100 L 50 50 1 1 B
+X EN1 6 200 -350 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # components_senior_design_Shaft_encoder
 #
 DEF components_senior_design_Shaft_encoder U 0 40 Y Y 1 F N
