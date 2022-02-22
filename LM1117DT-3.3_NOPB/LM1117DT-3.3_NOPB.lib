@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# LM1117DT-3.3/NOPB
+#
+DEF LM1117DT-3.3/NOPB U 0 40 Y Y 1 L N
+F0 "U" -208 258 50 H V L BNN
+F1 "LM1117DT-3.3/NOPB" -178 -510 50 H V L BNN
+F2 "TO228P970X238-3N" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "LM1117DT-3.3/NOPB" 0 0 50 H I L BNN "MPN"
+F5 "TO-252-3" 0 0 50 H I L BNN "PACKAGE"
+F6 "National Semiconductor" 0 0 50 H I L BNN "SUPPLIER"
+F7 "9486275" 0 0 50 H I L BNN "OC_FARNELL"
+F8 "41K3430" 0 0 50 H I L BNN "OC_NEWARK"
+DRAW
+S -600 -400 600 200 0 0 16 f
+X ADJ_/_GND 1 -800 0 200 R 40 40 0 0 W 
+X VIN 3 -800 -200 200 R 40 40 0 0 I 
+X VOUT 2 800 -200 200 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library
