@@ -615,11 +615,6 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 3450 3500 50  000
 	1    3450 3500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7150 1050 7150 1150
-Wire Wire Line
-	7150 1150 7050 1150
-Connection ~ 7050 1150
 $Comp
 L power:+5V #PWR0111
 U 1 1 622332A4
@@ -634,7 +629,7 @@ $EndComp
 Wire Wire Line
 	7400 1250 7350 1250
 Wire Wire Line
-	7350 1250 7350 950 
+	7350 1250 7350 1050
 $Comp
 L power:+3V3 #PWR0112
 U 1 1 62237AA7
@@ -1043,10 +1038,10 @@ F 3 "" H 3300 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:LM1117-3.3 U?
+L Regulator_Linear:LM1117-3.3 U4
 U 1 1 62158C27
 P 8150 1050
-F 0 "U?" H 8150 1292 50  0000 C CNN
+F 0 "U4" H 8150 1292 50  0000 C CNN
 F 1 "LM1117-3.3" H 8150 1201 50  0000 C CNN
 F 2 "" H 8150 1050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 8150 1050 50  0001 C CNN
@@ -1054,20 +1049,23 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 8150 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7150 1050 7850 1050
-Wire Wire Line
 	8450 1050 9000 1050
 Wire Wire Line
 	9000 1050 9000 1250
 $Comp
-L power:GND #PWR?
+L power:GND #PWR018
 U 1 1 6216B3AE
 P 8150 1350
-F 0 "#PWR?" H 8150 1100 50  0001 C CNN
+F 0 "#PWR018" H 8150 1100 50  0001 C CNN
 F 1 "GND" H 8155 1177 50  0000 C CNN
 F 2 "" H 8150 1350 50  0001 C CNN
 F 3 "" H 8150 1350 50  0001 C CNN
 	1    8150 1350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7350 1050 7850 1050
+Connection ~ 7350 1050
+Wire Wire Line
+	7350 1050 7350 950 
 $EndSCHEMATC
