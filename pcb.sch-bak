@@ -992,17 +992,6 @@ F 3 "" H 8950 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pcb-rescue:Conn_01x03-Connector_Generic J8
-U 1 1 6221F080
-P 8950 4100
-F 0 "J8" H 9030 4142 50  0000 L CNN
-F 1 "Conn_01x03-Connector_Generic" H 9030 4051 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8950 4100 50  0001 C CNN
-F 3 "" H 8950 4100 50  0001 C CNN
-	1    8950 4100
-	1    0    0    -1  
-$EndComp
-$Comp
 L pcb-rescue:Conn_01x03-Connector_Generic J7
 U 1 1 622234B4
 P 8950 3750
@@ -1225,4 +1214,15 @@ Wire Wire Line
 	8700 5900 8700 5250
 Connection ~ 8700 5900
 Connection ~ 8700 5250
+$Comp
+L pcb-rescue:Conn_01x03-Connector_Generic J8
+U 1 1 6221F080
+P 8950 4100
+F 0 "J8" H 9030 4142 50  0000 L CNN
+F 1 "Conn_01x03-Connector_Generic" H 9030 4051 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8950 4100 50  0001 C CNN
+F 3 "" H 8950 4100 50  0001 C CNN
+	1    8950 4100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
