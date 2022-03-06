@@ -188,4 +188,5 @@
   (lib (name Triac_Thyristor)(type Legacy)(uri ${ISC_SYMBOL_DIR}/schematic_kicad/Triac_Thyristor.lib)(options "")(descr ""))
   (lib (name Valve)(type Legacy)(uri ${ISC_SYMBOL_DIR}/schematic_kicad/Valve.lib)(options "")(descr ""))
   (lib (name Video)(type Legacy)(uri ${ISC_SYMBOL_DIR}/schematic_kicad/Video.lib)(options "")(descr ""))
+  (lib (name pcb-rescue)(type Legacy)(uri ${KIPRJMOD}/pcb-rescue.lib)(options "")(descr ""))
 )
