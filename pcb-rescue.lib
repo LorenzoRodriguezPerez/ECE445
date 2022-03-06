@@ -1,94 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Generic_Conn_01x06
+# +3V3-power
 #
-DEF Connector_Generic_Conn_01x06 J 0 40 Y N 1 F N
-F0 "J" 0 300 50 H V C CNN
-F1 "Connector_Generic_Conn_01x06" 0 -400 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-S -50 -295 0 -305 1 1 6 N
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 205 0 195 1 1 6 N
-S -50 250 50 -350 1 1 10 f
-X Pin_1 1 -200 200 150 R 50 50 1 1 P
-X Pin_2 2 -200 100 150 R 50 50 1 1 P
-X Pin_3 3 -200 0 150 R 50 50 1 1 P
-X Pin_4 4 -200 -100 150 R 50 50 1 1 P
-X Pin_5 5 -200 -200 150 R 50 50 1 1 P
-X Pin_6 6 -200 -300 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Switch_SW_Push
-#
-DEF Switch_SW_Push SW 0 40 N N 1 F N
-F0 "SW" 50 100 50 H V L CNN
-F1 "Switch_SW_Push" 0 -60 50 H V C CNN
-F2 "" 0 200 50 H I C CNN
-F3 "" 0 200 50 H I C CNN
-DRAW
-C -80 0 20 0 1 0 N
-C 80 0 20 0 1 0 N
-P 2 0 1 0 0 50 0 120 N
-P 2 0 1 0 100 50 -100 50 N
-X 1 1 -200 0 100 R 50 50 0 1 P
-X 2 2 200 0 100 L 50 50 0 1 P
-ENDDRAW
-ENDDEF
-#
-# device_C
-#
-DEF device_C C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "device_C" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device_R_US
-#
-DEF device_R_US R 0 0 N Y 1 F N
-F0 "R" 100 0 50 V V C CNN
-F1 "device_R_US" -100 0 50 V V C CNN
-F2 "" 40 -10 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 0 -90 0 -100 N
-P 2 0 1 0 0 90 0 100 N
-P 5 0 1 0 0 -30 40 -45 0 -60 -40 -75 0 -90 N
-P 5 0 1 0 0 30 40 15 0 0 -40 -15 0 -30 N
-P 5 0 1 0 0 90 40 75 0 60 -40 45 0 30 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# pcb-rescue_+3V3-power
-#
-DEF pcb-rescue_+3V3-power #PWR 0 0 Y Y 1 F P
+DEF +3V3-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "pcb-rescue_+3V3-power" 0 140 50 H V C CNN
+F1 "+3V3-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -99,11 +16,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# pcb-rescue_+3V8-power
+# +3V8-power
 #
-DEF pcb-rescue_+3V8-power #PWR 0 0 Y Y 1 F P
+DEF +3V8-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "pcb-rescue_+3V8-power" 0 140 50 H V C CNN
+F1 "+3V8-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -114,11 +31,11 @@ X +3V8 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# pcb-rescue_+5V-power
+# +5V-power
 #
-DEF pcb-rescue_+5V-power #PWR 0 0 Y Y 1 F P
+DEF +5V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "pcb-rescue_+5V-power" 0 140 50 H V C CNN
+F1 "+5V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -129,11 +46,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# pcb-rescue_2N3904-Transistor_BJT
+# 2N3904-Transistor_BJT
 #
-DEF pcb-rescue_2N3904-Transistor_BJT Q 0 0 Y N 1 F N
+DEF 2N3904-Transistor_BJT Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "pcb-rescue_2N3904-Transistor_BJT" 200 0 50 H V L CNN
+F1 "2N3904-Transistor_BJT" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_THT:TO-92_Inline" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -151,11 +68,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pcb-rescue_3v7_to_5V_boost-components_senior_design
+# 3v7_to_5V_boost-components_senior_design
 #
-DEF pcb-rescue_3v7_to_5V_boost-components_senior_design U 0 40 Y Y 1 F N
+DEF 3v7_to_5V_boost-components_senior_design U 0 40 Y Y 1 F N
 F0 "U" 0 150 50 H V C CNN
-F1 "pcb-rescue_3v7_to_5V_boost-components_senior_design" 0 250 50 H V C CNN
+F1 "3v7_to_5V_boost-components_senior_design" 0 250 50 H V C CNN
 F2 "components_ece445:3v7_to_5V_boost" 0 -1050 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -169,11 +86,11 @@ X Vout 6 350 0 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# pcb-rescue_C-device
+# C-device
 #
-DEF pcb-rescue_C-device C 0 10 N Y 1 F N
+DEF C-device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "pcb-rescue_C-device" 25 -100 50 H V L CNN
+F1 "C-device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -187,11 +104,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pcb-rescue_Conn_01x02-Connector_Generic
+# Conn_01x02-Connector_Generic
 #
-DEF pcb-rescue_Conn_01x02-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_01x02-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "pcb-rescue_Conn_01x02-Connector_Generic" 0 -200 50 H V C CNN
+F1 "Conn_01x02-Connector_Generic" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -206,11 +123,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pcb-rescue_Conn_01x03-Connector_Generic
+# Conn_01x03-Connector_Generic
 #
-DEF pcb-rescue_Conn_01x03-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_01x03-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "pcb-rescue_Conn_01x03-Connector_Generic" 0 -200 50 H V C CNN
+F1 "Conn_01x03-Connector_Generic" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -227,11 +144,46 @@ X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pcb-rescue_GND-power
+# Conn_02x05_Odd_Even-Connector_Generic
 #
-DEF pcb-rescue_GND-power #PWR 0 0 Y Y 1 F P
+DEF Conn_02x05_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
+F0 "J" 50 300 50 H V C CNN
+F1 "Conn_02x05_Odd_Even-Connector_Generic" 50 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 150 -250 1 1 10 f
+S 150 -195 100 -205 1 1 6 N
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+S 150 205 100 195 1 1 6 N
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_10 10 300 -200 150 L 50 50 1 1 P
+X Pin_2 2 300 200 150 L 50 50 1 1 P
+X Pin_3 3 -200 100 150 R 50 50 1 1 P
+X Pin_4 4 300 100 150 L 50 50 1 1 P
+X Pin_5 5 -200 0 150 R 50 50 1 1 P
+X Pin_6 6 300 0 150 L 50 50 1 1 P
+X Pin_7 7 -200 -100 150 R 50 50 1 1 P
+X Pin_8 8 300 -100 150 L 50 50 1 1 P
+X Pin_9 9 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GND-power
+#
+DEF GND-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "pcb-rescue_GND-power" 0 -150 50 H V C CNN
+F1 "GND-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -240,11 +192,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# pcb-rescue_GPS_NEO_6M_module-components_senior_design
+# GPS_NEO_6M_module-components_senior_design
 #
-DEF pcb-rescue_GPS_NEO_6M_module-components_senior_design G 0 40 Y Y 1 F N
+DEF GPS_NEO_6M_module-components_senior_design G 0 40 Y Y 1 F N
 F0 "G" 0 250 50 H V C CNN
-F1 "pcb-rescue_GPS_NEO_6M_module-components_senior_design" 0 350 50 H V C CNN
+F1 "GPS_NEO_6M_module-components_senior_design" 0 350 50 H V C CNN
 F2 "components_ece445:GPS_NEO_6M_module" 0 -400 50 H I C CNN
 F3 "" 50 50 50 H I C CNN
 DRAW
@@ -256,11 +208,11 @@ X GND 4 250 -250 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# pcb-rescue_LM1117-3.3-Regulator_Linear
+# LM1117-3.3-Regulator_Linear
 #
-DEF pcb-rescue_LM1117-3.3-Regulator_Linear U 0 10 Y Y 1 F N
+DEF LM1117-3.3-Regulator_Linear U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "pcb-rescue_LM1117-3.3-Regulator_Linear" 0 125 50 H V L CNN
+F1 "LM1117-3.3-Regulator_Linear" 0 125 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -277,11 +229,11 @@ X VI 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# pcb-rescue_PWR_FLAG-power
+# PWR_FLAG-power
 #
-DEF pcb-rescue_PWR_FLAG-power #FLG 0 0 N N 1 F P
+DEF PWR_FLAG-power #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "pcb-rescue_PWR_FLAG-power" 0 150 50 H V C CNN
+F1 "PWR_FLAG-power" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -290,11 +242,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# pcb-rescue_R_US-device
+# R_US-device
 #
-DEF pcb-rescue_R_US-device R 0 0 N Y 1 F N
+DEF R_US-device R 0 0 N Y 1 F N
 F0 "R" 100 0 50 V V C CNN
-F1 "pcb-rescue_R_US-device" -100 0 50 V V C CNN
+F1 "R_US-device" -100 0 50 V V C CNN
 F2 "" 40 -10 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -311,11 +263,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pcb-rescue_STM32F103C8T6-STM32F103C8T6
+# STM32F103C8T6-STM32F103C8T6
 #
-DEF pcb-rescue_STM32F103C8T6-STM32F103C8T6 U 0 40 Y Y 1 L N
+DEF STM32F103C8T6-STM32F103C8T6 U 0 40 Y Y 1 L N
 F0 "U" -800 1625 50 H V L BNN
-F1 "pcb-rescue_STM32F103C8T6-STM32F103C8T6" -800 -1600 50 H V L BNN
+F1 "STM32F103C8T6-STM32F103C8T6" -800 -1600 50 H V L BNN
 F2 "QFP50P900X900X160-48N" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "10" 0 0 50 H I L BNN "PARTREV"
@@ -374,11 +326,11 @@ X VDDA 9 1000 1500 200 L 40 40 0 0 W
 ENDDRAW
 ENDDEF
 #
-# pcb-rescue_Shaft_encoder-components_senior_design
+# Shaft_encoder-components_senior_design
 #
-DEF pcb-rescue_Shaft_encoder-components_senior_design U 0 40 Y Y 1 F N
+DEF Shaft_encoder-components_senior_design U 0 40 Y Y 1 F N
 F0 "U" 0 100 50 H V C CNN
-F1 "pcb-rescue_Shaft_encoder-components_senior_design" 0 200 50 H V C CNN
+F1 "Shaft_encoder-components_senior_design" 0 200 50 H V C CNN
 F2 "components_ece445:shaft_encoder" 50 -350 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -389,11 +341,11 @@ X GND 3 300 -200 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# pcb-rescue_compass_accelerometer-components_senior_design
+# compass_accelerometer-components_senior_design
 #
-DEF pcb-rescue_compass_accelerometer-components_senior_design U 0 40 Y Y 1 F N
+DEF compass_accelerometer-components_senior_design U 0 40 Y Y 1 F N
 F0 "U" 0 100 50 H V C CNN
-F1 "pcb-rescue_compass_accelerometer-components_senior_design" 0 200 50 H V C CNN
+F1 "compass_accelerometer-components_senior_design" 0 200 50 H V C CNN
 F2 "components_ece445:compass_accelerometer" 50 -950 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -406,34 +358,6 @@ X ~ 5 300 -450 100 L 50 50 1 1 B
 X ~ 6 300 -350 100 L 50 50 1 1 B
 X GND 7 300 -250 100 L 50 50 1 1 B
 X ~ 8 300 -150 100 L 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# power_+5V
-#
-DEF power_+5V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+5V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
