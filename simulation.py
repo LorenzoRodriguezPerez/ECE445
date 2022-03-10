@@ -6,36 +6,38 @@ def control(phi,awa):
     phi_tol = 2
     
     # compass within angle? 
-    while (): 
-    # compass angle within range
-    if phi in range(phi_tol):
-        # set sail angle based on awa 
-        if math.degrees(awa) >= 0 and math.degrees(awa) <= 45:
-            sA = 0
-        elif math.degrees(awa) > 45 and math.degrees(awa) <= 75:
-            sA = 10
-        elif math.degrees(awa) > 75 and math.degrees(awa) <= 105:
-            sA = -45
-        elif math.degrees(awa) >= 135 and math.degrees(awa) <= 225:
-            sA = 90
-        else:
-            sA = 0
-    else:
-        # upwind
-        if awa > 180 :
-            # tacking
-        elif awa < 180:
-            # downwind
-        else: 
-            # if compasss - heading = positive?
-            if :
-                # rudder turn right
-            else :
-                # rudder turn left
+    while ():
         
+        # compass angle within range
+        if phi in range(phi_tol):
+            # set sail angle based on awa 
+            if math.degrees(awa) >= 0 and math.degrees(awa) <= 45:
+                sA = 0
+            elif math.degrees(awa) > 45 and math.degrees(awa) <= 75:
+                sA = 10
+            elif math.degrees(awa) > 75 and math.degrees(awa) <= 105:
+                sA = -45
+            elif math.degrees(awa) >= 135 and math.degrees(awa) <= 225:
+                sA = 90
+            else:
+                sA = 0
+        else:
+            # upwind
+            if awa > 180 :
+                # tacking
                 
-            
-    return (0,0)
+            elif awa < 180:
+                # downwind
+                
+            else: 
+                # if compasss - heading = positive?
+                if phi > 0 :
+                    rA += PID_output
+                    # rudder turn right
+                else phi < 0:
+                    rA  -= PID_output
+                    # rudder turn left
+        return (0,0)
 
 def tacking():
     """ input:
